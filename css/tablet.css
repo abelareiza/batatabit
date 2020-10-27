@@ -1,0 +1,105 @@
+header img {
+    width: 180px;
+    height: 28px;
+}
+
+.header--title-container h1 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.header--title-container p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.main-exchange-container h2 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.main-exchange-container p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.main-table-container {
+    display: flex;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    margin: 0 auto 44px auto;
+    justify-content: center;
+}
+
+.product-detail--title h2 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.product-detail--title p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.product-detail--card {
+    width: 40%;
+    margin: 8px;
+}
+
+.plans-container--slider {
+    justify-content: center;
+}
+
+.main-table-container {
+    justify-content: center;
+}
+
+.main-currency-table {
+    margin: auto;
+}
+
+.main-commission-table {
+    margin: auto;
+}
+
+.bitcoin-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bitcoin-img-container h2 {
+    padding: 0;
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.plans--title h2 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.plans--title p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+footer .left ul {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+footer .right img {
+    width: 150px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
