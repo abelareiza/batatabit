@@ -25,16 +25,21 @@ header img {
 
 .main-table-container {
     display: flex;
-    width: 768px;
     margin: 0 auto;
+    overflow-x: unset;
 }
 
 .product-cards--container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 768px;
-    margin: 0 auto 44px auto;
-    justify-content: center;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-detail--card {
+    min-width: 288px;
+    max-width: 480px;
+    height: 150px;
+    padding: 10px 20px 22px 16px;
 }
 
 .product-detail--title h2 {
@@ -47,13 +52,9 @@ header img {
     line-height: 2.4rem;
 }
 
-.product-detail--card {
-    width: 40%;
-    margin: 8px;
-}
-
 .plans-container--slider {
     justify-content: center;
+    overflow-x: unset;
 }
 
 .main-table-container {
