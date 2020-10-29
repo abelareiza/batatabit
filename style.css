@@ -388,7 +388,7 @@ main {
 
 .product-cards--container {
     display: grid;
-    row-gap: 16px;
+    row-gap: 28px;
     grid-template-columns: 1fr;
     margin: 0 auto 44px auto;
     justify-items: center;

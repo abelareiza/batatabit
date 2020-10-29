@@ -58,15 +58,21 @@ header img {
 }
 
 .main-table-container {
-    justify-content: center;
+    display: grid;
+    column-gap: 10vw;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
 .main-currency-table {
-    margin: auto;
+    position: relative;
+    width: 70%;
 }
 
 .main-commission-table {
-    margin: auto;
+    position: relative;
+    width: 70%;
 }
 
 .bitcoin-img-container {
