@@ -390,7 +390,7 @@ main {
     display: grid;
     row-gap: 28px;
     grid-template-columns: 1fr;
-    margin: 0 auto 44px auto;
+    margin: 0 auto 28px auto;
     justify-items: center;
 }
 
